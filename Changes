@@ -1,0 +1,12 @@
+Revision history for POE-Component-WWW-PAUSE-RecentUpoads
+
+0.03  Sat Feb  2 11:49:31 2008
+    - fixed distribution packaging.
+
+0.02  Sat Feb  2 11:49:31 2008
+    - fixed ->shutdown() bug.
+
+0.01  Thu Jan 31 21:34:31 2008
+
+        First version, released on an unsuspecting world.
+

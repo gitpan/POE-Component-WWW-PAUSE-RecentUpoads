@@ -1,0 +1,28 @@
+---
+name: POE-Component-WWW-PAUSE-RecentUpoads
+version: 0.03
+author:
+  - 'Zoffix Znet <zoffix@cpan.org>'
+abstract: |-
+  a non-blocking L<POE> wrapper
+  around L<WWW::PAUSE::RecentUploads>.
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Carp: 1.04
+  POE: 0.9999
+  POE::Filter::Line: 1.192
+  POE::Filter::Reference: 1.2187
+  POE::Wheel::Run: 1.2179
+  WWW::PAUSE::RecentUploads: 0.01
+build_requires:
+  Test::More: 0
+provides:
+  POE::Component::WWW::PAUSE::RecentUpoads:
+    file: lib/POE/Component/WWW/PAUSE/RecentUpoads.pm
+    version: 0.03
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
